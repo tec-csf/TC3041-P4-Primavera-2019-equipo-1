@@ -1,0 +1,13 @@
+docker run --name influxdb -d -v $pwd:/var/lib/influxdb influxdb
+OR
+docker start influxdb
+
+docker cp "C:/Users/Eric/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/190427DBSTimeDatabase/TC3041-P4-Primavera-2019-equipo-1/biggestData.txt" influxdb:/
+
+docker exec -it influxdb bash
+
+influx -import -path=data.txt -precision=s
+
+influx
+
+10051288 car_count,location=av_carlos_lazo coches=540,trafico\ description="tráfico normal" 1741035600
