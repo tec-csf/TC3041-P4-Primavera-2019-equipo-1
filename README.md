@@ -18,7 +18,9 @@ Los datos fueron generados usando *GenerateSomeMoFoData.cpp*.  Es una adaptació
 - DATA_COUNT, el número de datos que deben ser generados por archivo.
 - ITERATIONS, el número de archivos por generar.
 
-El UNIX timestamp se calculó a partir del 27 de abril 00:00:00, hora de CDMX (1556341200).  Todos los datos son aleatorios con un multiplicador dependiendo de la hora (para simular horas en donde debe haber más tráfico).
+El UNIX timestamp se calculó a partir del 27 de abril 00:00:00, hora de CDMX (1556341200).  Todos los datos son aleatorios con un multiplicador dependiendo de la hora (para simular horas en donde debe haber más tráfico).  
+
+datos0.txt es un ejemplar de 1 millon de datos generados, (HEADER = "", DATA_COUNT = 1000000, ITERATIONS = 1).
 
 # Presentación de datos
 Los datos están presentados en seis gráficas, tres para cada ubicación (Av. De Los Poetas, Av. Carlos Lazo).
